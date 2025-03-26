@@ -407,6 +407,71 @@ main {
   visibility: visible;
 }
 
+.contact-me {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.contact-title {
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+  color: #fff; /* White title for contrast */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-card {
+  background: #1a1a1a; /* Dark gray for cards to stand out against black */
+  border-radius: 12px;
+  padding: 25px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.05); /* Subtle white shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(255, 255, 255, 0.1); /* Brighter shadow on hover */
+}
+
+.contact-icon {
+  font-size: 2.2rem;
+  color: #00b4d8; /* Cyan for icons - adjust to your theme */
+  margin-bottom: 15px;
+}
+
+.contact-details {
+  text-align: left;
+}
+
+.contact-label {
+  font-size: 1.2rem;
+  margin: 0 0 8px;
+  color: #ccc; /* Light gray for labels */
+  font-weight: 500;
+}
+
+.contact-link {
+  font-size: 1rem;
+  color: #00b4d8; /* Cyan for links - matches icons */
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+  color: #90e0ef; /* Lighter cyan for hover */
+}
+
 .contacts-list {
   display: grid;
   grid-template-columns: 1fr;
